@@ -3,7 +3,7 @@ Feature: Bring Create New User Account
 
   @Bring
   Scenario: Insert a new user at Amazon.es page
-    Given I click
+    Given I click in Cuenta y Listas
     When I click
     Then I click
 

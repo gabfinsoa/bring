@@ -1,0 +1,16 @@
+{
+  "Bring": {
+    "prd": {
+      "url": "https://www.amazon.es/"
+    },
+    "tst": {
+      "url": "https://www.amazon.es/"
+    },
+    "hml": {
+      "url": "https://www.amazon.es/"
+    },
+    "api": {
+      "url": "https://fakeapi.bring.com/"
+    }
+  }
+}

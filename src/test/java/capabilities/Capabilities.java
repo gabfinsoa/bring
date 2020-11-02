@@ -46,7 +46,6 @@ public class Capabilities {
                 options.setExperimentalOption("excludeSwitches", Collections.singletonList("enable-automation"));
                 options.setExperimentalOption("useAutomationExtension", false);
                 options.addArguments("start-maximized");
-//                options.addArguments("--host-resolver-rules=MAP www.google-analytics.com 127.0.0.1, MAP www.googletagmanager.com 127.0.0.1");
                 if (System.getProperty("driver") == null) {
                     driver = new ChromeDriver(options);
                 } else {
@@ -67,6 +66,7 @@ public class Capabilities {
                 cleanUp();
             }
         }
+
         return driver;
     }
 

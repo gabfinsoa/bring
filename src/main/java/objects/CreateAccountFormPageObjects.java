@@ -6,9 +6,9 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.Utils;
 
-public class CreateAccountFormPage extends Utils {
+public class CreateAccountFormPageObjects extends Utils {
 
-    public CreateAccountFormPage(WebDriver driver) {
+    public CreateAccountFormPageObjects(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }

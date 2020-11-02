@@ -16,4 +16,13 @@ public class HomePageObjects extends Utils {
     @FindBy(id = "nav-link-accountList")
     public WebElement btnHomePageCuentaYListas;
 
+    @FindBy(id = "twotabsearchtextbox")
+    public WebElement inpSearchBar;
+
+    @FindBy(id = "nav-search-submit-text")
+    public WebElement btnSearchProduct;
+
+    @FindBy(id = "nav-cart-count")
+    public WebElement btnCart;
+
 }

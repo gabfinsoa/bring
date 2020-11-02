@@ -5,7 +5,7 @@ import cucumber.api.Scenario;
 import cucumber.api.java8.Pt;
 import utils.Utils;
 
-public class Hook implements Pt{
+public class Hook implements Pt {
 
     public Hook() {
 
@@ -22,14 +22,12 @@ public class Hook implements Pt{
             }
         });
 
-
         After((Scenario scenario) -> {
             System.out.println("---------------------------------------------------------------------------------------------------");
             System.out.println("Test Scenario: " + scenario.getName());
             System.out.println("Test Status: " + scenario.getStatus().toUpperCase());
             System.out.println("---------------------------------------------------------------------------------------------------");
         });
-
-
     }
+
 }

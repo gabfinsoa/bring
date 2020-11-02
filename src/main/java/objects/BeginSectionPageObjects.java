@@ -6,13 +6,14 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import utils.Utils;
 
-public class IniciarSesionPageObjects extends Utils {
+public class BeginSectionPageObjects extends Utils {
 
-    public IniciarSesionPageObjects(WebDriver driver) {
+    public BeginSectionPageObjects(WebDriver driver) {
         super(driver);
         PageFactory.initElements(driver, this);
     }
 
     @FindBy(id = "createAccountSubmit")
     public WebElement btnCreateAccountSubmit;
+
 }
